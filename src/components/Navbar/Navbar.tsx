@@ -13,22 +13,22 @@ const Navbar = () => {
         </Link>
         <ul className="navbar-nav d-flex justify-content-around">
           <li className="nav-item">
-            <Link href="characters">
+            <Link href="/characters">
               <a>Characters</a>
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="locations">
+            <Link href="/locations">
               <a>Locations</a>
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="episodes">
+            <Link href="/episodes">
               <a>Episodes</a>
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="about">
+            <Link href="/about">
               <a>About</a>
             </Link>
           </li>

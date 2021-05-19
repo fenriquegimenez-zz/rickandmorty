@@ -1,7 +1,12 @@
 import React from "react"
+import Characters from "@/components/Characters/Characters"
 
 const index = () => {
-  return <h1 className="text-center my-4">Home</h1>
+  return (
+    <>
+      <Characters />
+    </>
+  )
 }
 
 export default index
