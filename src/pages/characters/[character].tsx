@@ -33,7 +33,7 @@ const character = () => {
     <Spinner />
   ) : (
     <div className="text-center">
-      <h1 className="text-center">{`${characterDetail?.name} ${
+      <h1 className="text-center my-5">{`${characterDetail?.name} ${
         characterDetail?.status === "Alive" ? "🟢" : "🔴"
       }`}</h1>
       <img
